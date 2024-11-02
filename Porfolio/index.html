@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio of Nagarajan P</title>
+    <link rel="stylesheet" href="/Porfolio/stylesheet/styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Creative Portfolio of Nagarajan P</h1>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Homepage Section -->
+    <section id="home">
+        <h2>Welcome to the Creative Portfolio of Nagarajan P</h2>
+        <p>Architectural Designer with 6 years of experience in the USA BIM industry.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I started my career as a junior BIM engineer at Magnasoft Consulting India Pvt Ltd. I'm amazed at the patterns of various BIM projects, architectural design projects, and various documentation work. I made it my mission to show more of it to the world. Motivated and detail-oriented modular with 6 years of experience in the USA.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#commercial">Commercial Buildings</a></li>
+            <li><a href="#residential">Residential Buildings</a></li>
+            <li><a href="#industrial">Industrial Buildings</a></li>
+            <li><a href="#airport">Airport Projects</a></li>
+            <li><a href="#tunnel">Tunnel Projects</a></li>
+        </ul>
+
+        <!-- Commercial Buildings Subpage -->
+        <div id="commercial">
+            <h3>Commercial Building, USA (2020)</h3>
+            <p>Description: Detailed description of the project.</p>
+            <img src="/Porfolio/Images/20 Greensboro NC_3D VIEW.JPG" alt="Commercial Building Image 1">
+            <img src="/Porfolio/Images/22 Medical Centre-1.JPG" alt="HealthCare Buildings Image 1">
+            <img src="/Porfolio/Images/26 AHWFB Greensboro 2.jpg" alt="Commercial Building Model 2">
+        </div>
+
+        <!-- Repeat similar blocks for other categories -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:nagarajan.civileng98@gmail.com">nagarajan.civileng98@gmail.com</a></p>
+        <p>Phone: <a href="tel:+971562770259">+971 562770259</a></p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Creative Portfolio of Nagarajan P. All rights reserved.</p>
+        <ul>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+    </footer>
+        <!-- Link JavaScript file -->
+        <script src="/Porfolio/script/script.js"></script>
+
+</body>
+</html>
